@@ -1,0 +1,260 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.main-menu ul li {
+	margin: 0 5px;
+}
+.main-menu ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	color: #000;
+	padding: 10px 20px;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+}
+.home-content .content {
+	width: 35%;
+}
+.home-content .content h6 {
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+.home-content .content h1{
+	font-size: 50px;
+}
+.home-content .content p {
+	line-height: 1.6em;
+	letter-spacing: 1px;
+	font-weight: bold;
+	color: #6b6b6b;
+}
+.home-img img {
+	margin-left: 15px;
+}
+.home-section .count .next i,
+.home-section .count .prev i{
+	font-size: 30px;
+	padding: 5px;
+	color: #00000026;
+}
+.home-section .count .page {
+	margin: 0 5px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.about-content{
+	position: relative;
+}
+/*
+.about-content div::after {
+	position: absolute;
+	content: '';
+	width: 2px;
+	height: 80px;
+	top: 100%;
+	left: 50%;
+	background: blue;
+	
+}
+*/
+.about-section {
+	padding: 100px 0;
+}
+.about-content .verticle {
+	width: 2px;
+	height: 80px;
+	margin: auto;
+	background: #2c98f5;
+}
+.about-content h3 {
+	line-height: 1.6em;
+}
+.about-content h6 {
+	font-size: 12px;
+	font-weight: 800;
+	letter-spacing: 2.2px;
+}
+.img-content .content p {
+	letter-spacing: 1px;
+	line-height: 1.6em;
+	margin-bottom: 30px;
+}
+.img-content .content a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 2.2px;
+	padding: 9px 0;
+	border-bottom: 1.5px solid #2c98f5;
+	color: #CCCCCC;
+}
+
+.vdo-img {
+	right: 30px;
+	bottom: -70px;
+	width: 55%;
+}
+.shop-content h6 {
+	font-size: 12px;
+	letter-spacing: 2px;
+}
+.shop-content h2 {
+	font-size: 45px;
+}
+.shop-section {
+	padding: 100px 0;
+}
+.shop-box .img {
+	width: 60%;
+}
+.shop-box .box-price h3 {
+	font-size: 24px;
+	text-transform: capitalize;
+	margin-bottom: 24px;
+}
+.shop-box .box-price h4 {
+	color: #f9a392;
+}
+.shop-box .box-price h6 {
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 2px;
+}
+.show-btn a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 2.2px;
+	padding: 9px 0;
+	border-bottom: 1.5px solid #2c98f5;
+}
+.training-section {
+	padding: 100px 0;
+}
+.training-1 .content h1 {
+	font-size: 120px;
+	opacity: 0.1;
+	margin-bottom: -35px;
+}
+.training-1 .content h2 {
+	text-transform: capitalize;
+	font-size: 40px;
+}
+.training-1 .content p {
+	line-height: 1.6em;
+}
+.training-1 .content a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 2.2px;
+	padding: 9px 0;
+	border-bottom: 1.5px solid #2c98f5;
+}
+
+.training-2 hr,
+.training-1 hr {
+	width: 40px;
+	border-bottom: 3px solid blue;
+}
+.training-2 .content h1 {
+	font-size: 120px;
+	opacity: 0.1;
+	margin-bottom: -35px;
+}
+.training-2 .content h2 {
+	text-transform: capitalize;
+	font-size: 40px;
+}
+.training-2 .content p {
+	line-height: 1.6em;
+}
+.training-2 .content a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 2.2px;
+	padding: 9px 0;
+	border-bottom: 1.5px solid #2c98f5;
+}
+
+.join-section .verticle {
+	width: 2px;
+    height: 80px;
+    margin: auto;
+    background: #2c98f5;
+}
+.join-content h2 {
+	text-transform: capitalize;
+    font-size: 40px;
+}
+.join-content p {
+	line-height: 1.6em;
+}
+.join-content .form input {
+	padding: 10px 12px;
+	width: 300px;
+	outline: none;
+}
+.join-content .form button {
+	outline: none;
+	border: none;
+	padding: 12px 20px;
+	text-transform: uppercase;
+	background: #2c98f5;
+	color: #FFF;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+.address-section {
+	padding: 100px 0;
+}
+.address-content h6{
+	font-size: 12px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+
+.address-content h2 {
+	margin-left: 50px;
+}
+.address-content a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 2.2px;
+	padding: 9px 0;
+	border-bottom: 1.5px solid #2c98f5;
+}
+.footer-section {
+	padding-bottom: 100px;
+}
+.footer-menu ul li {
+	margin: 0 10px;
+}
+.footer-menu ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 8px 12px;
+	color: #6c757d;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+.social-icons ul li {
+	margin: 0 10px;
+}
+.social-icons ul li i {
+	font-size: 20px;
+	color: #CCCCCC;
+}
+
